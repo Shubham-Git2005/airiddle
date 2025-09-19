@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-public class RiddleGame {
+class RiddleGame {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int score = 0;
@@ -62,4 +61,5 @@ public class RiddleGame {
         // Display final score.
         System.out.println("Your final score: " + score);
         System.out.println("Thanks for playing!");
+    }
     }
